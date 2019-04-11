@@ -1,0 +1,51 @@
+header{
+    font-family: 'Digital Tailor Cursive Font';
+    text-align:center;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 10px;   
+    word-spacing: 40px;
+}
+
+footer{
+    font-family: 'Digital Tailor Cursive Font';
+    text-align:center;
+    font-size: 30px;
+    letter-spacing: 10px;   
+}
+
+body{
+    background-image: linear-gradient(darkblue,blue, white);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.welcomeFade{
+    opacity: 1; /* hides the text initially*/
+    transition: 2s;
+    color: white;
+    font-family: 'Digital Tailor Cursive Font';
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
+
+.options{
+    display: inline-block;
+    justify-content: center;
+    height: 50px;
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Digital Tailor Cursive Font';
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    border-radius: 30px;
+    border-top-color: silver;
+}
+
+
+@font-face{ 
+	font-family: 'Digital Tailor Cursive Font';
+	src: url('AlexBrush-Regular.ttf');
+
+}
